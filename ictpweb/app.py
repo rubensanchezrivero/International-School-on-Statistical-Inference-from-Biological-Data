@@ -1,5 +1,4 @@
 import streamlit as st
-import base64
 from PIL import Image
 
 st.set_page_config(
@@ -85,42 +84,21 @@ cols[4].image(logo5, width=120)
 cols[5].image(logo1, width=90)
 
 
-pdf_path = "assets/posters/winter_school_poster.pdf"
-
-def display_pdf(path: str, width: int = 700, height: int = 900):
+st.markdown(
     """
-    Embed a PDF file in the Streamlit app.
-
-    Parameters
-    ----------
-    path : str
-        Path to the PDF file.
-    width : int
-        Width of the embedded viewer.
-    height : int
-        Height of the embedded viewer.
-    """
-    with open(path, "rb") as f:
-        base64_pdf = base64.b64encode(f.read()).decode("utf-8")
-
-    pdf_display = f"""
-        <iframe
-            src="data:application/pdf;base64,{base64_pdf}"
-            width="{width}"
-            height="{height}"
-            type="application/pdf">
-        </iframe>
-    """
-
-    st.markdown(pdf_display, unsafe_allow_html=True)
-
-
-st.download_button(
-    label="📄 Download poster (PDF)",
-    data=open(pdf_path, "rb"),
-    file_name="Winter_School_2026_Poster.pdf",
-    mime="application/pdf",
+    <a href="https://drive.google.com/file/d/185TTHM9DKmKTO6gjmNI0JxflO1LVgIAg/view?usp=sharing" target="_blank">
+        <button style="
+            background-color: #FF4B4B;
+            color: white;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 0.5rem;
+            cursor: pointer;
+            font-size: 1rem;
+        ">
+            📄 View/Download Poster (PDF)
+        </button>
+    </a>
+    """,
+    unsafe_allow_html=True
 )
-
-with st.expander("📋 View Poster (click to expand)"):
-    display_pdf(pdf_path)
