@@ -115,11 +115,12 @@ def display_pdf(path: str, width: int = 700, height: int = 900):
     st.markdown(pdf_display, unsafe_allow_html=True)
 
 
-display_pdf(pdf_path)
-
 st.download_button(
     label="📄 Download poster (PDF)",
     data=open(pdf_path, "rb"),
     file_name="Winter_School_2026_Poster.pdf",
     mime="application/pdf",
 )
+
+with st.expander("📋 View Poster (click to expand)"):
+    display_pdf(pdf_path)
