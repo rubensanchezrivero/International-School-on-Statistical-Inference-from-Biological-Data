@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ictp-school-web:
+    build:
+      context: ./ictpweb
+      dockerfile: Dockerfile
+    container_name: ictp-school-web
+    ports:
+      - "8502:8501"  # Maps external port 8502 to internal Streamlit port 8501
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - ictp-network
+
+networks:
+  ictp-network:
+    driver: bridge
