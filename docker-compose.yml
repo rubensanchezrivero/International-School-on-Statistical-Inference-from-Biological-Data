@@ -1,16 +1,35 @@
 version: '3.8'
 
 services:
-  ictp-school-web:
+  # Streamlit App (original)
+  ictp-school-streamlit:
     build:
       context: ./ictpweb
       dockerfile: Dockerfile
-    container_name: ictp-school-web
+    container_name: ictp-school-streamlit
     ports:
-      - "8502:8501"  # Maps external port 8502 to internal Streamlit port 8501
+      - "8502:8501"
     restart: unless-stopped
     healthcheck:
       test: ["CMD", "curl", "--fail", "http://localhost:8501/_stcore/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - ictp-network
+
+  # Astro Website (new)
+  ictp-school-website:
+    build:
+      context: ./website
+      dockerfile: Dockerfile
+    container_name: ictp-school-website
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:3000/"]
       interval: 30s
       timeout: 10s
       retries: 3

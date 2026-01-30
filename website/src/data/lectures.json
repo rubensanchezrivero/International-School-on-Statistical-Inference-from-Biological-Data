@@ -1,0 +1,158 @@
+[
+  {
+    "lecturers": [
+      {
+        "topic": "microRNAs",
+        "name": "Carla Bosia",
+        "country": "Italy",
+        "affiliation": "Politecnico di Torino"
+      }
+    ],
+    "lectures": [
+      {
+        "title": "Ultrasensitivity from resource competition",
+        "subtitle": "microRNAs as a case study"
+      }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "Daniele De Martino",
+        "topic": "Metabolism",
+        "affiliation": "Biofisika Institute - Ikerbasque",
+        "country": "Spain"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Modelling Metabolism" },
+      { "label": "Lecture II", "title": "Modelling Metabolism" },
+      { "label": "Lecture III", "title": "Modelling Metabolism" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "C. Enrico-Bena",
+        "topic": "Mutations",
+        "affiliation": "INRAE",
+        "country": "France"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Studying mutations in single cells in real time" },
+      { "label": "Lecture II", "title": "Studying mutations in single cells in real time" },
+      { "label": "Lecture III", "title": "Studying mutations in single cells in real time" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "J. Fernandez-de-Cossio-Diaz",
+        "topic": "Representation Learning",
+        "affiliation": "Université Paris-Saclay",
+        "country": "France"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Representation Learning" },
+      { "label": "Lecture II", "title": "Representation Learning" },
+      { "label": "Lecture III", "title": "Representation Learning" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "L. Ferretti",
+        "topic": "Epidemics",
+        "affiliation": "Oxford University",
+        "country": "UK"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Epidemiology, molecular evolution, natural selection and fitness landscapes" },
+      { "label": "Lecture II", "title": "Multi-scale modelling of epidemics" },
+      { "label": "Lecture III", "title": "Challenges in epidemiological inference" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "A. Fuentes-Hernandez",
+        "topic": "Evolutionary dynamics",
+        "affiliation": "UNAM",
+        "country": "Mexico"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Luria-Delbrück and the Statistical Signatures of Mutation" },
+      { "label": "Lecture II", "title": "Experimental Evolution as a Stochastic Data-Generating Process" },
+      { "label": "Lecture III", "title": "Modeling Evolutionary Dynamics in Bacterial Communities" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "F. di Lauro",
+        "affiliation": "Oxford University",
+        "topic": "Epidemics on networks",
+        "country": "UK"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Introduction to epidemics on networks", "subtitle": "exact models, mean-field models, and beyond" },
+      { "label": "Lecture II", "title": "Inference of network topology from propagating processes" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "C. Lucibello",
+        "topic": "Diffusion models",
+        "affiliation": "Bocconi University",
+        "country": "Italy"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Diffusion Models" },
+      { "label": "Lecture II", "title": "Diffusion Models" },
+      { "label": "Lecture III", "title": "Diffusion Models" }
+    ]
+  },
+  {
+    "lecturers": [
+      {
+        "name": "A. Pagnani",
+        "topic": "Protein language models",
+        "affiliation": "Politecnico di Torino",
+        "country": "Italy"
+      }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Protein Language Models" },
+      { "label": "Lecture II", "title": "Protein Language Models" },
+      { "label": "Lecture III", "title": "Protein Language Models" }
+    ]
+  },
+  {
+    "lecturers": [
+      { "name": "D. Thieffry", "topic": "Transcriptomics networks", "affiliation": "ENS", "country": "France" },
+      { "name": "L. Martignetti", "affiliation": "ENS", "country": "France" },
+      { "name": "G. Stoll", "affiliation": "ENS", "country": "France" }
+    ],
+    "lectures": [
+      { "title": "From transcriptomic data analysis to predictive dynamical network modelling" }
+    ]
+  },
+  {
+    "lecturers": [
+      { "name": "M. Weigt", "affiliation": "Sorbonne University", "topic": "Statistical mechanics of protein sequences", "country": "France" },
+      { "name": "F. Calvanese", "affiliation": "Sorbonne University", "country": "France" }
+    ],
+    "lectures": [
+      { "label": "Lecture I", "title": "Statistical mechanics of protein sequences", "subtitle": "from data to models" },
+      { "label": "Lecture II", "title": "Statistical mechanics of protein sequences", "subtitle": "from data to models" },
+      { "label": "Lecture III", "title": "Generative modeling of RNA sequences" }
+    ]
+  }
+]

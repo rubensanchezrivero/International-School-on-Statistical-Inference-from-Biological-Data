@@ -1,0 +1,26 @@
+[
+  {
+    "week": "Week 1",
+    "schedule": {
+      "09:00-10:00": { "Monday": "Martin", "Tuesday": "Luca", "Wednesday": "Luca", "Thursday": "Daniele", "Friday": "Lucibello" },
+      "10:00-11:00": { "Monday": "Luca", "Tuesday": "Daniele", "Wednesday": "Cossio", "Thursday": "Cossio", "Friday": "Andrea" },
+      "11:00-11:30": { "Monday": "Coffee Break", "Tuesday": "Coffee Break", "Wednesday": "Coffee Break", "Thursday": "Coffee Break", "Friday": "Coffee Break" },
+      "11:30-12:30": { "Monday": "Carla", "Tuesday": "Martin", "Wednesday": "Daniele", "Thursday": "Andrea", "Friday": "Lucibello" },
+      "12:30-14:30": { "Monday": "Lunch", "Tuesday": "Lunch", "Wednesday": "Lunch", "Thursday": "Lunch", "Friday": "Lunch" },
+      "14:30-15:30": { "Monday": "Martin", "Tuesday": "Carla", "Wednesday": "Andrea", "Thursday": "Lucibello", "Friday": "" },
+      "15:30-16:30": { "Monday": "Carla", "Tuesday": "Cossio", "Wednesday": "", "Thursday": "", "Friday": "" }
+    }
+  },
+  {
+    "week": "Week 2",
+    "schedule": {
+      "09:00-10:00": { "Monday": "Chiara", "Tuesday": "Loredana", "Wednesday": "Gautier", "Thursday": "WORKSHOP", "Friday": "WORKSHOP" },
+      "10:00-11:00": { "Monday": "Ayari", "Tuesday": "Denis", "Wednesday": "Training Labs", "Thursday": "WORKSHOP", "Friday": "WORKSHOP" },
+      "11:00-11:30": { "Monday": "Coffee Break", "Tuesday": "Coffee Break", "Wednesday": "Coffee Break", "Thursday": "Coffee Break", "Friday": "Coffee Break" },
+      "11:30-12:30": { "Monday": "Francesco", "Tuesday": "Francesco", "Wednesday": "Training Labs", "Thursday": "WORKSHOP", "Friday": "WORKSHOP" },
+      "12:30-14:30": { "Monday": "Lunch", "Tuesday": "Lunch", "Wednesday": "Lunch", "Thursday": "Lunch", "Friday": "Lunch" },
+      "14:30-15:30": { "Monday": "Chiara", "Tuesday": "Ayari", "Wednesday": "Training Labs", "Thursday": "WORKSHOP", "Friday": "WORKSHOP" },
+      "15:30-16:30": { "Monday": "Ayari", "Tuesday": "Chiara", "Wednesday": "Training Labs", "Thursday": "WORKSHOP", "Friday": "WORKSHOP" }
+    }
+  }
+]
